@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    padding: 3px;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    color: #555856;
+    font-weight: 600;
+    transition: .5s;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(8, 8, 155);
+}
+
+.active {
+    color: black;
+}
+
+.logo {
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.logo span {
+    color: rgb(42, 42, 110);
+}
